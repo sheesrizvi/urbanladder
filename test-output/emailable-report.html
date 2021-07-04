@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">4</td><td class="num">193,271</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestCaseClasses.BeingAtHomeTest</td><td><a href="#m0">abc</a></td><td rowspan="1">1625224968182</td><td rowspan="1">21123</td></tr><tr class="failedodd"><td rowspan="3">TestCaseClasses.GiftCardTest</td><td><a href="#m1">abc</a></td><td rowspan="3">1625224811822</td><td rowspan="3">19651</td></tr><tr class="failedodd"><td><a href="#m2">abc</a></td></tr><tr class="failedodd"><td><a href="#m3">abc</a></td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestCaseClasses.BookShelvesPageTest</td><td><a href="#m4">abc</a></td><td rowspan="1">1625224942594</td><td rowspan="1">25238</td></tr><tr class="passedodd"><td rowspan="1">TestCaseClasses.GetStudyChairTest</td><td><a href="#m5">abc</a></td><td rowspan="1">1625224993494</td><td rowspan="1">10729</td></tr><tr class="passedeven"><td rowspan="2">TestCaseClasses.GiftCardTest</td><td><a href="#m6">abc</a></td><td rowspan="2">1625224921878</td><td rowspan="2">20580</td></tr><tr class="passedeven"><td><a href="#m7">abc</a></td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">TestCaseClasses.BeingAtHomeTest#abc</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Being-At-Home sub-menu is Missing in Collection Menu
+	at baseClasses.PageBaseClass.reportFail(PageBaseClass.java:68)
+	at pageClasses.HomePage.beingAtHome(HomePage.java:76)
+	at TestCaseClasses.BeingAtHomeTest.abc(BeingAtHomeTest.java:28)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestCaseClasses.GiftCardTest#abc</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{senderPhone=9.87654321E9, senderEmail=akash24@gmail.com, monthYear=Sept (2021), comments=Invalid Recipient Email, recipientName=Shubhangi, day=20.0, senderName=Akash, recipientEmail=shubhangi999@, message=Hello Bro!!}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Wrong information Fed-Up : Verify The Details in attached ScreenShot
+	at baseClasses.PageBaseClass.reportFail(PageBaseClass.java:68)
+	at baseClasses.PageBaseClass.veriyElementIsDisplayed(PageBaseClass.java:55)
+	at TestCaseClasses.GiftCardTest.abc(GiftCardTest.java:57)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestCaseClasses.GiftCardTest#abc</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{senderPhone=9.876543211E9, senderEmail=akash24@, monthYear=Sept (2021), comments=Invalid Senders Email, recipientName=Shubhangi, day=20.0, senderName=Akash, recipientEmail=shubhangi999@gmail.com, message=Hello Bro!!}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Wrong information Fed-Up : Verify The Details in attached ScreenShot
+	at baseClasses.PageBaseClass.reportFail(PageBaseClass.java:68)
+	at baseClasses.PageBaseClass.veriyElementIsDisplayed(PageBaseClass.java:55)
+	at TestCaseClasses.GiftCardTest.abc(GiftCardTest.java:57)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestCaseClasses.GiftCardTest#abc</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{senderPhone=9.876543212E9, senderEmail=akash24@gmail.com, monthYear=Nov (2021), comments=Invalid monthyear , recipientName=Shubhangi, day=10.0, senderName=Akash, recipientEmail=shubhangi999@gmail.com, message=Hello Bro!!}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Cannot locate element with text: Nov (2021)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-A4E622Q7&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: unknown
+	at baseClasses.PageBaseClass.reportFail(PageBaseClass.java:68)
+	at baseClasses.PageBaseClass.selectDropDownValue(PageBaseClass.java:46)
+	at pageClasses.GiftCardPage.selectDropDown(GiftCardPage.java:58)
+	at TestCaseClasses.GiftCardTest.abc(GiftCardTest.java:36)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestCaseClasses.BookShelvesPageTest#abc</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestCaseClasses.GetStudyChairTest#abc</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestCaseClasses.GiftCardTest#abc</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{senderPhone=9.876543213E9, senderEmail=akash24@gmail.com, monthYear=Sept (2021), comments=Valid  Email, recipientName=Shubhangi, day=21.0, senderName=Akash, recipientEmail=shubhangi999@gmail.com, message=Hello Bro!!}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestCaseClasses.GiftCardTest#abc</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{senderPhone=98@78yf, senderEmail=akash24@gmail.com, monthYear=Sept (2021), comments=Invalid  phone, recipientName=Shubhangi, day=20.0, senderName=Akash, recipientEmail=shubhangi999@gmail.com, message=Hello Bro!!}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

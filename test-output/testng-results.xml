@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="4" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-02T11:20:11Z" name="Suite" finished-at="2021-07-02T11:23:24Z" duration-ms="193271">
+    <groups>
+    </groups>
+    <test started-at="2021-07-02T11:20:11Z" name="Test" finished-at="2021-07-02T11:23:24Z" duration-ms="193271">
+      <class name="TestCaseClasses.GiftCardTest">
+        <test-method signature="abc(java.util.Hashtable)[pri:0, instance:TestCaseClasses.GiftCardTest@146587a2]" started-at="2021-07-02T11:20:11Z" name="abc" data-provider="addGiftCardDetails" finished-at="2021-07-02T11:20:31Z" duration-ms="19651" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{senderPhone=9.87654321E9, senderEmail=akash24@gmail.com, monthYear=Sept (2021), comments=Invalid Recipient Email, recipientName=Shubhangi, day=20.0, senderName=Akash, recipientEmail=shubhangi999@, message=Hello Bro!!}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wrong information Fed-Up : Verify The Details in attached ScreenShot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wrong information Fed-Up : Verify The Details in attached ScreenShot
+at org.testng.Assert.fail(Assert.java:96)
+at baseClasses.PageBaseClass.reportFail(PageBaseClass.java:68)
+at baseClasses.PageBaseClass.veriyElementIsDisplayed(PageBaseClass.java:55)
+at TestCaseClasses.GiftCardTest.abc(GiftCardTest.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestCaseClasses.GiftCardTest@146587a2]" started-at="2021-07-02T11:20:31Z" name="flushReports" finished-at="2021-07-02T11:20:32Z" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="abc(java.util.Hashtable)[pri:0, instance:TestCaseClasses.GiftCardTest@146587a2]" started-at="2021-07-02T11:20:32Z" name="abc" data-provider="addGiftCardDetails" finished-at="2021-07-02T11:20:51Z" duration-ms="19431" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{senderPhone=9.876543211E9, senderEmail=akash24@, monthYear=Sept (2021), comments=Invalid Senders Email, recipientName=Shubhangi, day=20.0, senderName=Akash, recipientEmail=shubhangi999@gmail.com, message=Hello Bro!!}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wrong information Fed-Up : Verify The Details in attached ScreenShot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wrong information Fed-Up : Verify The Details in attached ScreenShot
+at org.testng.Assert.fail(Assert.java:96)
+at baseClasses.PageBaseClass.reportFail(PageBaseClass.java:68)
+at baseClasses.PageBaseClass.veriyElementIsDisplayed(PageBaseClass.java:55)
+at TestCaseClasses.GiftCardTest.abc(GiftCardTest.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestCaseClasses.GiftCardTest@146587a2]" started-at="2021-07-02T11:20:51Z" name="flushReports" finished-at="2021-07-02T11:20:51Z" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="abc(java.util.Hashtable)[pri:0, instance:TestCaseClasses.GiftCardTest@146587a2]" started-at="2021-07-02T11:20:51Z" name="abc" data-provider="addGiftCardDetails" finished-at="2021-07-02T11:21:41Z" duration-ms="50300" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{senderPhone=9.876543212E9, senderEmail=akash24@gmail.com, monthYear=Nov (2021), comments=Invalid monthyear , recipientName=Shubhangi, day=10.0, senderName=Akash, recipientEmail=shubhangi999@gmail.com, message=Hello Bro!!}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Cannot locate element with text: Nov (2021)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-A4E622Q7', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Cannot locate element with text: Nov (2021)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-A4E622Q7', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+at org.testng.Assert.fail(Assert.java:96)
+at baseClasses.PageBaseClass.reportFail(PageBaseClass.java:68)
+at baseClasses.PageBaseClass.selectDropDownValue(PageBaseClass.java:46)
+at pageClasses.GiftCardPage.selectDropDown(GiftCardPage.java:58)
+at TestCaseClasses.GiftCardTest.abc(GiftCardTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestCaseClasses.GiftCardTest@146587a2]" started-at="2021-07-02T11:21:41Z" name="flushReports" finished-at="2021-07-02T11:21:42Z" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="abc(java.util.Hashtable)[pri:0, instance:TestCaseClasses.GiftCardTest@146587a2]" started-at="2021-07-02T11:21:42Z" name="abc" data-provider="addGiftCardDetails" finished-at="2021-07-02T11:22:01Z" duration-ms="19620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{senderPhone=98@78yf, senderEmail=akash24@gmail.com, monthYear=Sept (2021), comments=Invalid  phone, recipientName=Shubhangi, day=20.0, senderName=Akash, recipientEmail=shubhangi999@gmail.com, message=Hello Bro!!}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestCaseClasses.GiftCardTest@146587a2]" started-at="2021-07-02T11:22:01Z" name="flushReports" finished-at="2021-07-02T11:22:01Z" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="abc(java.util.Hashtable)[pri:0, instance:TestCaseClasses.GiftCardTest@146587a2]" started-at="2021-07-02T11:22:01Z" name="abc" data-provider="addGiftCardDetails" finished-at="2021-07-02T11:22:22Z" duration-ms="20580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{senderPhone=9.876543213E9, senderEmail=akash24@gmail.com, monthYear=Sept (2021), comments=Valid  Email, recipientName=Shubhangi, day=21.0, senderName=Akash, recipientEmail=shubhangi999@gmail.com, message=Hello Bro!!}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestCaseClasses.GiftCardTest@146587a2]" started-at="2021-07-02T11:22:22Z" name="flushReports" finished-at="2021-07-02T11:22:22Z" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- TestCaseClasses.GiftCardTest -->
+      <class name="TestCaseClasses.BookShelvesPageTest">
+        <test-method signature="abc()[pri:0, instance:TestCaseClasses.BookShelvesPageTest@5f0e9815]" started-at="2021-07-02T11:22:22Z" name="abc" finished-at="2021-07-02T11:22:47Z" duration-ms="25238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestCaseClasses.BookShelvesPageTest@5f0e9815]" started-at="2021-07-02T11:22:47Z" name="flushReports" finished-at="2021-07-02T11:22:48Z" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- TestCaseClasses.BookShelvesPageTest -->
+      <class name="TestCaseClasses.GetStudyChairTest">
+        <test-method signature="abc()[pri:0, instance:TestCaseClasses.GetStudyChairTest@126945f9]" started-at="2021-07-02T11:23:13Z" name="abc" finished-at="2021-07-02T11:23:24Z" duration-ms="10729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestCaseClasses.GetStudyChairTest@126945f9]" started-at="2021-07-02T11:23:24Z" name="flushReports" finished-at="2021-07-02T11:23:24Z" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- TestCaseClasses.GetStudyChairTest -->
+      <class name="TestCaseClasses.BeingAtHomeTest">
+        <test-method signature="abc()[pri:0, instance:TestCaseClasses.BeingAtHomeTest@76884e4b]" started-at="2021-07-02T11:22:48Z" name="abc" finished-at="2021-07-02T11:23:09Z" duration-ms="21123" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Being-At-Home sub-menu is Missing in Collection Menu]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Being-At-Home sub-menu is Missing in Collection Menu
+at org.testng.Assert.fail(Assert.java:96)
+at baseClasses.PageBaseClass.reportFail(PageBaseClass.java:68)
+at pageClasses.HomePage.beingAtHome(HomePage.java:76)
+at TestCaseClasses.BeingAtHomeTest.abc(BeingAtHomeTest.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestCaseClasses.BeingAtHomeTest@76884e4b]" started-at="2021-07-02T11:23:09Z" name="flushReports" finished-at="2021-07-02T11:23:13Z" duration-ms="4186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- TestCaseClasses.BeingAtHomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
